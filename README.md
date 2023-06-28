@@ -14,7 +14,7 @@ alt="NR-SLAM" width="240" height="180" border="10" /></a>
 
 
 ### Related Publications:
-[NR-SLAM] Juan J. Gómez Rodríguez, José M. M. Montiel and Juan D. Tardós, **NR-SLAM: Non-Rigid Monocular SLAM**, *ArXivxxx.yyy*. **[PDF](TO BE UPLOADED)**.
+[NR-SLAM] Juan J. Gómez Rodríguez, José M. M. Montiel and Juan D. Tardós, **NR-SLAM: Non-Rigid Monocular SLAM**, *ArXiV xxx.yyy*. **[PDF](TO BE UPLOADED)**.
 
 [Deformable tracking] Juan J. Gómez Rodríguez, José M. M. Montiel and Juan D. Tardós, **Tracking monocular camera pose and deformation for SLAM inside the human body**, *IEEE/RSJ International Conference on Intelligent Robots and Systems 2022*. **[PDF](https://arxiv.org/abs/2204.08309)**.
 
