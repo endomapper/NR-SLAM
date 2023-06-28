@@ -1,12 +1,12 @@
 # NR-SLAM: Non-Rigid Monocular SLAM
 
 ### V0.1, June 28th, 2023
-**Authors:** [Juan J. Gómez Rodríguez](https://jj-gomez.github.io/), [José M. M. Montiel](http://webdiis.unizar.es/~josemari/), [Juan D. Tardos](http://webdiis.unizar.es/~jdtardos/).
+**Authors:** [Juan J. Gómez Rodríguez](https://jj-gomez.github.io/), [José M. M. Montiel](http://webdiis.unizar.es/~josemari/), [Juan D. Tardós](http://webdiis.unizar.es/~jdtardos/).
 
 NR-SLAM is a novel monocular deformable SLAM system founded on the combination of a **Dynamic Deformation Graph** with a **Visco-Elastic deformation model**.
 It is able to reconstruct medical imagery with surfaces with different types of topologies and deformations and can use **pinhole** and **fisheye** cameras.
 
-We provide examples to run NR-SLAM in the Hamlyn and in the Endomapper datasets. Videos os some example executions can be found [here](https://drive.google.com/file/d/12KNHVLE05uoO4x9eZ-qHlGtQ-JPZaAnD).
+We provide examples to run NR-SLAM in the Hamlyn and in the Endomapper datasets. Videos of some example executions can be found [here](https://drive.google.com/file/d/12KNHVLE05uoO4x9eZ-qHlGtQ-JPZaAnD).
 
 <a href="https://youtu.be/N-N0ugRjR2s" target="_blank"><img src="https://youtu.be/N-N0ugRjR2s/0.jpg"
 alt="NR-SLAM" width="240" height="180" border="10" /></a>
@@ -14,7 +14,7 @@ alt="NR-SLAM" width="240" height="180" border="10" /></a>
 
 
 ### Related Publications:
-[NR-SLAM] Juan J. Gómez Rodríguez, José M. M. Montiel and Juan D. Tardós, **Tracking monocular camera pose and deformation for SLAM inside the human body**, *IEEE Transactions on Robotics (under review)*. **[PDF](TO BE UPLOADED)**.
+[NR-SLAM] Juan J. Gómez Rodríguez, José M. M. Montiel and Juan D. Tardós, **NR-SLAM: Non-Rigid Monocular SLAM**, *ArXivxxx.yyy*. **[PDF](TO BE UPLOADED)**.
 
 [Deformable tracking] Juan J. Gómez Rodríguez, José M. M. Montiel and Juan D. Tardós, **Tracking monocular camera pose and deformation for SLAM inside the human body**, *IEEE/RSJ International Conference on Intelligent Robots and Systems 2022*. **[PDF](https://arxiv.org/abs/2204.08309)**.
 
@@ -30,12 +30,12 @@ If you use NR-SLAM in an academic work, please cite:
       title={{NR-SLAM}: Non-Rigid Monocular {SLAM}},
       author={G\´omez, Juan J. AND Montiel, 
               Jos\'e M. M. AND Tard\'os, Juan D.},
-      journal={IEEE Transactions on Robotics},
+      journal={ArXiV xxx.yyy},
       year={2023}
      }
 
 # 2. Prerequisites
-We have tested the library in **Ubuntu 20.04.4 LTS** but it should be easy to compile in other platforms. A powerful computer (e.g. i7) will ensure real-time performance and provide more stable and accurate results.
+We have tested the library in **Ubuntu 20.04.4 LTS** but it should be easy to compile in other platforms. A powerful computer (e.g. i7) will ensure good performance and provide more stable and accurate results.
 
 ## C++17
 We use several functionalities of C++17.
@@ -95,9 +95,9 @@ this dataset, both the real and simulated videos.
 ```
 
 # 5. Hamlyn Examples
-[Hamlyn dataset](http://hamlyn.doc.ic.ac.uk/vision/) is a set of endoscopy sequences recorder with a monocular and stereo endoscope. 
+[Hamlyn dataset](http://hamlyn.doc.ic.ac.uk/vision/) is a set of endoscopy sequences recorded with a monocular and stereo endoscope. 
 
-1. Download the dataset from the [webpage](http://hamlyn.doc.ic.ac.uk/vision/). (Disclaimer: unfortunately the web page is usually down. please contact the original dataset authors to get the images).
+1. Download the dataset from the [webpage](http://hamlyn.doc.ic.ac.uk/vision/). (Disclaimer: unfortunately the web page is often down. Please contact the dataset authors to get the images).
 
 2. Execute the following command:
 ```
