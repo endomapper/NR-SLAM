@@ -1,0 +1,2 @@
+BrightFilter 200
+BorderFilter 20 20 50 20 0

@@ -1,0 +1,46 @@
+%YAML:1.0
+
+# Camera model
+Camera.model: "KannalaBrandt8"
+
+# Camera calibration and distortion parameters
+Camera.fx: 358.6052
+Camera.fy: 358.7408
+Camera.cx: 367.6783
+Camera.cy: 276.3991
+
+Camera.k0: -0.1389272
+Camera.k1: -0.001239606
+Camera.k2: 0.0009125824
+Camera.k3: -4.071615e-05
+
+Camera.radiansPerPixel: 0.0025
+
+Masking.filterFile: "./data/endomapper/filters.txt"
+
+Visualization.cameraSize: 0.5
+
+System.autoplay: 0
+
+# Set the below variables to valid paths to save outputs
+MapVisualizer.save_path: ""
+ImageVisualizer.save_path: ""
+Evaluation.save_path: ""
+
+MapVisualizer.left_view: !!opencv-matrix
+  rows: 4
+  cols: 4
+  dt: f
+  data: [ 0.785745,   0.48177,    0.387947,   5.02123,
+          -0.0591522, -0.565788,  0.822426,   -5.44175,
+          0.615716,   -0.669165,  -0.416067,  -12.3285,
+          0.0,        0.0,        0.0,        1.0 ]
+
+MapVisualizer.right_view: !!opencv-matrix
+  rows: 4
+  cols: 4
+  dt: f
+  data: [ 0.525733,     0.187924,   -0.829632,  5.81522,
+          -0.00904387,  -0.974003,  -0.226357,  0.590644,
+          -0.850602,    0.126507,   -0.510366,  -10.6228,
+          0.0,          0.0,        0.0,        1.0 ]

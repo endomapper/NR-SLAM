@@ -1,0 +1,41 @@
+%YAML:1.0
+
+# Camera model
+Camera.model: "PinHole"
+
+# Camera calibration and distortion parameters
+Camera.fx: 472.64955100886374
+Camera.fy: 472.64955100886374
+Camera.cx: 479.5
+Camera.cy: 359.5
+
+Camera.radiansPerPixel: 0.002
+
+Masking.filterFile: "./data/simulation/filters.txt"
+
+Visualization.cameraSize: 0.5
+
+System.autoplay: 1
+
+# Set the below variables to valid paths to save outputs
+MapVisualizer.save_path: ""
+ImageVisualizer.save_path: ""
+Evaluation.save_path: ""
+
+MapVisualizer.left_view: !!opencv-matrix
+  rows: 4
+  cols: 4
+  dt: f
+  data: [ 0.724267, 0.688597, -0.0356722, 1.79774,
+    0.310373, -0.27938, 0.908634, -4.77672,
+    0.615716, -0.669165, -0.416068, -6.55803,
+          0.0,        0.0,        0.0,        1.0 ]
+
+MapVisualizer.right_view: !!opencv-matrix
+  rows: 4
+  cols: 4
+  dt: f
+  data: [ 0.202292, 0.208433, -0.956888, 5.21818,
+    -0.0225534, -0.975838, -0.217329, 0.277943,
+    -0.979066, 0.0655449, -0.192703, -5.8181,
+          0.0,          0.0,        0.0,        1.0 ]

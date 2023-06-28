@@ -1,0 +1,44 @@
+%YAML:1.0
+
+# Camera model
+Camera.model: "PinHole"
+
+# Camera calibration and distortion parameters
+Camera.fx: 747.2929414322916
+Camera.fy: 747.2929414322916
+Camera.cx: 384.0130844116211
+Camera.cy: 303.405942718188
+
+Camera.radiansPerPixel: 0.002
+
+# For stereo evaluation
+Stereo.bf: 3886.37
+
+Masking.filterFile: "./data/hamlyn_21/filters.txt"
+
+Visualization.cameraSize: 0.5
+
+System.autoplay: 1
+
+# Set the below variables to valid paths to save outputs
+MapVisualizer.save_path: ""
+ImageVisualizer.save_path: ""
+Evaluation.save_path: ""
+
+MapVisualizer.left_view: !!opencv-matrix
+  rows: 4
+  cols: 4
+  dt: f
+  data: [ 0.920547,    -0.143783,   0.363208,    -10.1817,
+          0.291739,    -0.365267,   -0.884007,   31.3624,
+          0.259773,    0.919732,   -0.294298,   -56.083,
+          0.0,   0.0,   0.0,       1.0 ]
+
+MapVisualizer.right_view: !!opencv-matrix
+  rows: 4
+  cols: 4
+  dt: f
+  data: [ 0.864957,    -0.172623,   0.471223,    -5.01378,
+        -0.0521823,  -0.964826,   -0.25766,    3.69142,
+        0.499126,    0.198275,    -0.84354,    -24.4947,
+        0.0,   0.0,   0.0,   1.0 ]
